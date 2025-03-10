@@ -1,31 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-body {
-    font-family: Roboto Mono ;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+
+body {
+    font-family: "Roboto Mono", monospace;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
 
 
 .jumbotron {
     background-color: aqua;
-    padding: 60px;
+    padding: 40px;
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 15px;
 }
 
+
+.jumbotron img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+
+.box-green, .box-purple {
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 9px;
+    text-align: justify;
+    max-width: 800px;
+}
+
+
 .box-green {
     background-color: rgb(22, 223, 22);
-    margin: 15px;
-    padding: 15px;
-    text-align: justify;
-    border-radius: 9px;
+    color: white;
 }
 
 .box-purple {
     background-color: rgb(191, 41, 191);
-    margin: 15px;
-    padding: 15px;
-    text-align: justify;
-    border-radius: 9px;
+    color: white;
+}
+
+
+.box-green img, 
+.box-purple img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+
+iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .jumbotron {
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    .jumbotron img {
+        width: 120px;
+    }
+
+    .box-green, .box-purple {
+        padding: 15px;
+        margin: 10px;
+        font-size: 14px;
+    }
 }
