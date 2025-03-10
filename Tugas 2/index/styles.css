@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body {
+    font-family: Roboto Mono ;
+}
+
+
+
+.jumbotron {
+    background-color: aqua;
+    padding: 60px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.box-green {
+    background-color: rgb(22, 223, 22);
+    margin: 15px;
+    padding: 15px;
+    text-align: justify;
+    border-radius: 9px;
+}
+
+.box-purple {
+    background-color: rgb(191, 41, 191);
+    margin: 15px;
+    padding: 15px;
+    text-align: justify;
+    border-radius: 9px;
+}

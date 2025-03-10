@@ -1,0 +1,62 @@
+body {  
+  background: linear-gradient(#79D7BE 0%,#C0EBA6 40%, #36C2CE 100%); 
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.profile h2 {
+  color: white;
+  transform: translateY(10px);
+}
+
+.profile h4 {
+  color: white;
+  transform: translateY(10px);
+}
+
+.gambar {
+  width: 150px;
+}
+
+.biodata {
+   background: linear-gradient(#fffeff 0%,#ffffffd5 40%, #fdfdfd00 100%);
+  padding-bottom: 150px;
+  padding-top: 55px;
+}
+
+.biodata h3 {
+  margin-bottom: 20px;
+}
+
+.biodata h4 {
+  margin-bottom: 10px
+}
+
+.biodata p {
+  text-align: justify;
+}
+
+.pengalaman {
+  padding-top: 55px;
+}
+.pengalaman h3 {
+  margin-bottom: 20px;
+}
+
+.pengalaman h4 {
+  margin-bottom: 10px
+}
+
+.pengalaman p {
+  text-align: justify;
+}
+
+html {
+  scroll-behavior: smooth;
+}
